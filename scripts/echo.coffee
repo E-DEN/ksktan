@@ -1,7 +1,7 @@
 # Description:
 #   bot echo
 module.exports = (robot) ->
-  robot.respond /ksktan/i, (msg) ->
+  robot.hear /ksktan/i, (msg) ->
      msg.send "(^^)?"
 
   robot.hear /HELLO$/i, (msg) ->
