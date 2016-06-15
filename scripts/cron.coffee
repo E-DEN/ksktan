@@ -6,7 +6,7 @@ module.exports = (robot) ->
     response.send msg
 
   # *(sec) *(min) *(hour) *(day) *(month) *(day of the week)
-  new cronJob('0 0 1 * * *', () ->
+  new cronJob('0 6 1 * * *', () ->
     currentTime = new Date
-    send '#channel02', "current time is #{new Date().currentTime.getHours()}:00."
+    send 'channel02', "current time is #{new Date().currentTime.getHours()}:00."
   ).start()
