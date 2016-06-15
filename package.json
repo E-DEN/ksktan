@@ -5,6 +5,7 @@
   "author": "den",
   "description": "ksktan is hayai",
   "dependencies": {
+    "cron": "^1.1.0",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-discord": "^1.1.0",
@@ -17,8 +18,7 @@
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
-    "hubot-shipit": "^0.2.0",
-    "cron": "^1.1.0"
+    "hubot-shipit": "^0.2.0"
   },
   "engines": {
     "node": "0.12.7"
